@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+
+	<head>
+		<title> Tugas Html </title>
+	</head>
+	<body>
+		<form method="post" action="proses.php">
+			Nama <input type="text" name="nama" /> <br/>
+			Password <input type="password" name="password"/.\><br/>
+			Jenis Kelamin<input type="radio" name="jk" value="laki-laki"/> laki-laki
+							<input type="radio" namem="jk" value="perempuan"/> perempuan
+			<br />
+            skill <input type="checkbox" name="skil" value="HTML" /> HTML
+                 <input type="checkbox" name="skil" value="CSS" /> CSS
+                 <input type="checkbox" name="skil" value="HTML" /> JavaScript
+    
+    Kota Asal  <select name="kota">
+                    <option value="manado">Manado</option>
+                    <option  value="aermadidi">Aermadidi</option>
+                    <option  value="minsel">Minsel</option>
+                    <option  value="bolmong">Bolmong</option>
+
+    <input type="submit" value ="Kirim Data"
+
+    </form>
+
+        
